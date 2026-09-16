@@ -1,0 +1,75 @@
+h1 {
+    background-color: #f2f2f2;
+}
+p {
+    font-size: 20px;
+    background-color: #ececec;
+    color: #000000;  
+}
+#welcome {
+    font-size: 40px;
+    color: #000000;
+    border: 2px dotted black; 
+    text-align: center;   
+    
+}
+#navigate {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    text-align: center;
+}
+h2, h3 {
+    font-size: 30px;
+    color: #000000;
+    background-color: #c8c8c7;
+}
+#gameswow {
+    font-size: 20px;
+    color: #000000;
+}
+body {
+    background-color: #92929241;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, p {
+    text-align: center; /* adding this extra rule cuz it makes it look cuter */
+}
+
+section {
+    margin: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px dotted black;
+}
+
+#navigation ul{
+    text-align: center;
+    margin-bottom: 20px;
+    list-style-type: none; /* remove the dots on the left */
+    padding: 0;   /*the list is still shifted slightly due to default ul padding, so bye byeeee */
+
+    display: flex;      /* make it a flex container to center it again! */
+    justify-content: center;   
+}
+
+#navigation li {
+    margin: 0 5px;  
+    border-right : 1px solid black; /* add a border to the right of each list item */
+    padding: 0 10px; /* add some padding again to center the text after adjusting it */
+    :last-child {
+        border-right: none; /* doesnt work? its supposed to remove the last line after the last page */
+    }
+}
+
+#navigation a {
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: none; /* bye bye underlineee */
+    color: #000000; /* change the color of the links */
+    margin-left: auto; 
+    margin-right: auto;
+
+}
