@@ -114,3 +114,13 @@ main img {
     border: 6px solid rgb(117, 115, 115);
     max-width: 100%; /*I made the image size 200px so its not large enough to overflow and spill out of the container, but incase the image was like 2000pxs instead its made to prevent it from breaking */
 }
+
+.games {
+    display: flex; /* order them next to eachother */
+    justify-content: center;
+    gap: 15px; 
+}
+
+#bulletlist {
+    font-size: 24px;
+}
