@@ -78,7 +78,7 @@ section {
     text-align: center;
     margin-bottom: 20px;
     text-decoration: none; /* bye bye underlineee */
-    color: #000000; /* change the color of the links */
+    color: #010101; /* change the color of the links */
     margin-left: auto; 
     margin-right: auto;
     border: ridge;
@@ -103,4 +103,14 @@ section {
 
 #navigation .current {
     color: blue;
+}
+
+main a {
+  border: 6px solid black;
+  
+}
+
+main img {
+    border: 6px solid rgb(117, 115, 115);
+    max-width: 100%; /*I made the image size 200px so its not large enough to overflow and spill out of the container, but incase the image was like 2000pxs instead its made to prevent it from breaking */
 }
