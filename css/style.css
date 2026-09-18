@@ -33,8 +33,16 @@ h2, h3 {
 body {
     background-color: #00000041;
     font-family: Arial, sans-serif;
-    background-image: url("/images/flowers2.avif");
-    background-size: 800px;
+    background-image:
+     url("/images/flowers2.avif"), /* 2 images, seperated by a comma */
+     url("/images/flowers2.avif"); /* in the case I want the same image twice, and I adjust the x and y positions seperately*/
+
+    background-position: 1755px 185px, 5px 185px; /* x and y position for both images
+    /* background-position-y: 185px; */
+    background-size: 740px;
+    background-repeat: no-repeat;
+
+
 }
 
 h1, h2, h3, p {
